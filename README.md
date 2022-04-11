@@ -1,5 +1,5 @@
-# Scripts and data 
-The repository contains the main scripts, data used in the study "Artificial intelligence to predict West Nile Virus outbreak drivers with eco-climatic drivers" 
+# Artificial intelligence to predict West Nile Virus outbreak drivers with eco-climatic drivers
+The repository contains the main scripts, input/output data used in the study 
 
 **Directories:**
 
