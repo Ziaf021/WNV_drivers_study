@@ -4,6 +4,10 @@ The repository contains the main scripts, data used in the study "Artificial int
 Directories:
 
 Data
-This folder contains the input and ouput data files of the model-Q2 used in the main text analysis 
-Scripts 
+This folder 
+**Directories:**
+
+**Data:** contains the input and ouput data files of the model-Q2 used in the main text analysis 
+ 
+**Scripts:** 
 This folder contains the the main script, the necessary functions, and a plotting script file
