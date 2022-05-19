@@ -142,7 +142,7 @@ title_2018 <- paste("Test2018-threshold = ",
 
 draw_confusion_matrix(cm_xgb, title_2018)
 
-df_metrics2018 <- fn_chooseThreshold(model.xgb,dMtrxTest,label_test2018, c(0.1,0.2,0.5))%>%
+df_metrics2018 <- fn_chooseThreshold(model.xgb,dMtrxTest,label_test, c(0.1,0.2,0.5))%>%
   mutate(`Test.Year` = c("2018"))%>%
   mutate(Model=rep(Model_name))%>%
   mutate(ROC.AUC=rep(round(as.numeric(roc_2018$auc),2), dim(df_metrics2018)[1]))
@@ -162,7 +162,7 @@ draw_confusion_matrix(cm_xgb19,title_2019)
 
 ## estimate classification metrics for different thresholds for test_2019 data
 
-df_metrics2018_2019 <-  fn_chooseThreshold(model.xgb,dMtrxTest,label_test2018, c(0.1,0.2,0.5))%>%
+df_metrics2018_2019 <-  fn_chooseThreshold(model.xgb,dMtrxTest,label_test, c(0.1,0.2,0.5))%>%
   mutate(`Test.Year` = c("2018"))%>%
   mutate(Model=rep(Model_name))%>%
   mutate(ROC.AUC=rep(round(as.numeric(roc_2019$auc),2), dim(df_metrics2019)[1]))%>%
